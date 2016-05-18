@@ -1,0 +1,24 @@
+﻿@model SitecoreReference.ViewModels.HomeVm
+@{ 
+    ViewBag.Title = "Home";
+}
+@Html.Partial("_MainCarousel")
+@Html.Partial("_Features", Model.OurServices)
+@Html.Partial("_RecentWork", Model.RecentWork)
+@Html.Partial("_OurServicesSquare")
+
+<section id="middle">
+    <div class="container">
+        <div class="row">
+            @Html.Partial("_OurSkillsBars")
+            @Html.Partial("_WhyPeopleLikeUs")
+
+        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#middle-->
+
+@Html.Partial("_WhatWeDo")
+
+@Html.Partial("_OurPartners")
+@Html.Partial("_RequestQuote")
+

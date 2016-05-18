@@ -1,0 +1,75 @@
+﻿@model IEnumerable<SitecoreReference.Models.Location>
+<section id="contact-info">
+    <div class="center">
+        <h2>How to Reach Us?</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+    </div>
+    <div class="gmap-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 text-center">
+                    <div class="gmap">
+                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=JoomShaper,+Dhaka,+Dhaka+Division,+Bangladesh&amp;aq=0&amp;oq=joomshaper&amp;sll=37.0625,-95.677068&amp;sspn=42.766543,80.332031&amp;ie=UTF8&amp;hq=JoomShaper,&amp;hnear=Dhaka,+Dhaka+Division,+Bangladesh&amp;ll=23.73854,90.385504&amp;spn=0.001515,0.002452&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=1073661719450182870&amp;output=embed"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-sm-7 map-content">
+                    <ul class="row">
+                        <li class="col-sm-6">
+                            <address>
+                                <h5>Head Office</h5>
+                                <p>
+                                    @Model.ElementAtOrDefault(0).Street <br>
+                                    @Model.ElementAtOrDefault(0).City, @Model.ElementAtOrDefault(0).State @Model.ElementAtOrDefault(0).Zip
+                                </p>
+                                <p>
+                                    Phone: @Model.ElementAtOrDefault(0).Phone <br>
+                                    Email @Model.ElementAtOrDefault(0).Email
+                                </p>
+                            </address>
+
+                            <address>
+                                <h5>Head Office</h5>
+                                <p>
+                                    @Model.ElementAtOrDefault(1).Street <br>
+                                    @Model.ElementAtOrDefault(1).City, @Model.ElementAtOrDefault(1).State @Model.ElementAtOrDefault(1).Zip
+                                </p>
+                                <p>
+                                    Phone: @Model.ElementAtOrDefault(1).Phone <br>
+                                    Email @Model.ElementAtOrDefault(1).Email
+                                </p>
+                            </address>
+                        </li>
+
+
+                        <li class="col-sm-6">
+                            <address>
+                                <h5>Head Office</h5>
+                                <p>
+                                    @Model.ElementAtOrDefault(2).Street <br>
+                                    @Model.ElementAtOrDefault(2).City, @Model.ElementAtOrDefault(1).State @Model.ElementAtOrDefault(2).Zip
+                                </p>
+                                <p>
+                                    Phone: @Model.ElementAtOrDefault(2).Phone <br>
+                                    Email @Model.ElementAtOrDefault(2).Email
+                                </p>
+                            </address>
+
+                            <address>
+                                <h5>Head Office</h5>
+                                <p>
+                                    @Model.ElementAtOrDefault(3).Street <br>
+                                    @Model.ElementAtOrDefault(3).City, @Model.ElementAtOrDefault(1).State @Model.ElementAtOrDefault(3).Zip
+                                </p>
+                                <p>
+                                    Phone: @Model.ElementAtOrDefault(3).Phone <br>
+                                    Email @Model.ElementAtOrDefault(3).Email
+                                </p>
+                            </address>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>  <!--/gmap_area -->

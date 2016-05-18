@@ -1,0 +1,27 @@
+﻿@model SitecoreReference.Models.TeamMemberProfile
+
+<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+    <div class="media">
+        <div class="pull-left">
+            <a href="#"><img class="media-object" src="@Model.ImageUrl" alt=""></a>
+        </div>
+        <div class="media-body">
+            <h4>@Model.Name</h4>
+            <h5>@Model..Role</h5>
+            <ul class="tag clearfix">
+                @foreach (var skill in @Model.Skills)
+                {
+                    <li class="btn"><a href="#">@skill.Name</a></li>
+                }
+            </ul>
+
+            <ul class="social_icons">
+                <li><a href="@Model.FacebookProfileUrl"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="@Model.TwitterProfileUrl"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="@Model.GooglePlusProfileUrl"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+    </div><!--/.media -->
+    <p>@Model.Description</p>
+</div>
+

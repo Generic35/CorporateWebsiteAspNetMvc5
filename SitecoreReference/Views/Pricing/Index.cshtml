@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Pricing";
+}
+<section class="pricing-page">
+    <div class="container">
+        <div class="center">
+            <h2>Pricing Table</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+        <div class="pricing-area text-center">
+            <div class="row">
+                @Html.Partial("_PricingThreeCol")
+                @Html.Partial("_PricingFourCol")
+            </div>
+        </div><!--/pricing-area-->
+    </div><!--/container-->
+</section><!--/pricing-page-->

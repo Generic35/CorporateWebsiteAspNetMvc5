@@ -1,0 +1,12 @@
+﻿@model SitecoreReference.ViewModels.ServicesVm
+@{
+    ViewBag.Title = "Services";
+}
+<section id="feature" class="transparent-bg">
+    <div class="container">
+        @Html.Partial("_OurServicesRound", Model.OurServices)
+        @Html.Partial("_GetStarted")
+        @Html.Partial("_ClientComments", Model.ClientComments)
+
+    </div><!--/.container-->
+</section><!--/#feature-->

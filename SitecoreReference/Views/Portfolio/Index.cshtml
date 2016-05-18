@@ -1,0 +1,56 @@
+﻿@model SitecoreReference.ViewModels.PortfolioVm
+@{
+    ViewBag.Title = "Portfolio";
+}
+<section id="portfolio">
+    <div class="container">
+        <div class="center">
+            <h2>Portfolio</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+
+
+        <ul class="portfolio-filter text-center">
+            <li><a class="btn btn-default active" href="#" data-filter="*">All Works</a></li>
+            <li><a class="btn btn-default" href="#" data-filter=".bootstrap">Creative</a></li>
+            <li><a class="btn btn-default" href="#" data-filter=".html">Photography</a></li>
+            <li><a class="btn btn-default" href="#" data-filter=".wordpress">Web Development</a></li>
+        </ul><!--/#portfolio-filter-->
+
+        <div class="row">
+            <div class="portfolio-items">
+                <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
+                    @Html.Partial("_RecentWorkItem", Model.OurRecentWork.ElementAtOrDefault(0))
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3">
+                    @Html.Partial("_RecentWorkItem", Model.OurRecentWork.ElementAtOrDefault(1))
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
+                    @Html.Partial("_RecentWorkItem", Model.OurRecentWork.ElementAtOrDefault(2))
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
+                    @Html.Partial("_RecentWorkItem", Model.OurRecentWork.ElementAtOrDefault(3))
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3">
+                    @Html.Partial("_RecentWorkItem", Model.OurRecentWork.ElementAtOrDefault(4))
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3">
+                    @Html.Partial("_RecentWorkItem", Model.OurRecentWork.ElementAtOrDefault(5))
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item wordpress html col-xs-12 col-sm-4 col-md-3">
+                    @Html.Partial("_RecentWorkItem", Model.OurRecentWork.ElementAtOrDefault(6))
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item wordpress html bootstrap col-xs-12 col-sm-4 col-md-3">
+                    @Html.Partial("_RecentWorkItem", Model.OurRecentWork.ElementAtOrDefault(7))
+                </div><!--/.portfolio-item-->
+            </div>
+        </div>
+    </div>
+</section><!--/#portfolio-item-->

@@ -1,0 +1,9 @@
+﻿@using SitecoreReference.Models;
+@model ClientComment
+<div class="col-md-4 wow fadeInDown">
+    <div class="clients-comments text-center">
+        <img src="@Model.ImageUrl" class="img-circle" alt="">
+        <h3>@Model.Comment</h3>
+        <h4><span>-@Model.Name  /</span>  @Model.Role</h4>
+    </div>
+</div>

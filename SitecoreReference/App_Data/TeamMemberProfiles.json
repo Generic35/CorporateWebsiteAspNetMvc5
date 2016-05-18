@@ -1,0 +1,67 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "John Doe",
+    "Role": "Director of corlate.com",
+    "ImageUrl": "/images/man1.jpg",
+    "Skills": [
+      { "Name": "Web" },
+      { "Name": "Ui" },
+      { "Name": "Ux" },
+      { "Name": "Photoshop" }
+    ],
+    "FacebookProfileUrl": "#",
+    "TwitterProfileUrl": "#",
+    "GooglePlusProfileUrl": "#",
+    "Description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  },
+  {
+    "Id": 2,
+    "Name": "John Doe",
+    "Role": "Director of corlate.com",
+    "ImageUrl": "/images/man2.jpg",
+    "Skills": [
+      { "Name": "Web" },
+      { "Name": "Ui" },
+      { "Name": "Ux" },
+      { "Name": "Photoshop" }
+    ],
+    "FacebookProfileUrl": "#",
+    "TwitterProfileUrl": "#",
+    "GooglePlusProfileUrl": "#",
+    "Description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  },
+  {
+    "Id": 3,
+    "Name": "John Doe",
+    "Role": "Director of corlate.com",
+    "ImageUrl": "/images/man3.jpg",
+    "Skills": [
+      { "Name": "Web" },
+      { "Name": "Ui" },
+      { "Name": "Ux" },
+      { "Name": "Photoshop" }
+    ],
+    "FacebookProfileUrl": "#",
+    "TwitterProfileUrl": "#",
+    "GooglePlusProfileUrl": "#",
+    "Description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  },
+  {
+    "Id": 4,
+    "Name": "John Doe",
+    "Role": "Director of corlate.com",
+    "ImageUrl": "/images/man4.jpg",
+    "Skills": [
+      { "Name": "Web" },
+      { "Name": "Ui" },
+      { "Name": "Ux" },
+      { "Name": "Photoshop" }
+    ],
+    "FacebookProfileUrl": "#",
+    "TwitterProfileUrl": "#",
+    "GooglePlusProfileUrl": "#",
+    "Description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  }
+]
+

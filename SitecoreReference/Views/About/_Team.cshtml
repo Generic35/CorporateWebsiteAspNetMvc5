@@ -1,0 +1,44 @@
+﻿@model SitecoreReference.ViewModels.AboutVm
+
+<div class="team">
+    <div class="center wow fadeInDown">
+        <h2>Team of Corlate</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </div>
+
+    <div class="row clearfix">
+        <div class="col-md-4 col-sm-6">
+            @Html.Partial("_TeamMemberProfile", Model.TeamMemberProfiles.ElementAtOrDefault(0))
+        </div><!--/.col-lg-4 -->
+
+        <div class="col-md-4 col-sm-6 col-md-offset-2">
+            @Html.Partial("_TeamMemberProfile", Model.TeamMemberProfiles.ElementAtOrDefault(1))
+        </div><!--/.col-lg-4 -->
+    </div> <!--/.row -->
+    <div class="row team-bar">
+        <div class="first-one-arrow hidden-xs">
+            <hr>
+        </div>
+        <div class="first-arrow hidden-xs">
+            <hr> <i class="fa fa-angle-up"></i>
+        </div>
+        <div class="second-arrow hidden-xs">
+            <hr> <i class="fa fa-angle-down"></i>
+        </div>
+        <div class="third-arrow hidden-xs">
+            <hr> <i class="fa fa-angle-up"></i>
+        </div>
+        <div class="fourth-arrow hidden-xs">
+            <hr> <i class="fa fa-angle-down"></i>
+        </div>
+    </div> <!--skill_border-->
+
+    <div class="row clearfix">
+        <div class="col-md-4 col-sm-6 col-md-offset-2">
+            @Html.Partial("_TeamMemberProfile", Model.TeamMemberProfiles.ElementAtOrDefault(2))
+        </div>
+        <div class="col-md-4 col-sm-6 col-md-offset-2">
+            @Html.Partial("_TeamMemberProfile", Model.TeamMemberProfiles.ElementAtOrDefault(3))
+        </div>
+    </div>	<!--/.row-->
+</div><!--section-->

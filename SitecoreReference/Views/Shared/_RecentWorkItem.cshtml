@@ -1,0 +1,12 @@
+﻿@model SitecoreReference.Models.RecentWork
+<div class="recent-work-wrap">
+    <img class="img-responsive" src="@Model.ImageUrlSmall" alt="">
+    <div class="overlay">
+        <div class="recent-work-inner">
+            <h3><a href="#">@Model.Title</a></h3>
+            <p>@Model.Description</p>
+            <a class="preview" href="@Model.ImageUrlLarge" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+        </div>
+    </div>
+</div>
+

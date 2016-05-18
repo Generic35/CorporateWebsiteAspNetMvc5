@@ -1,0 +1,39 @@
+﻿[
+  {
+    "Id": 1,
+    "Title": "Fresh and Clean",
+    "Icon": "bullhorn",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+  },
+  {
+    "Id": 2,
+    "Title": "Retina ready",
+    "Icon": "comments",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+  },
+  {
+    "Id": 3,
+    "Title": "Easy to customize",
+    "Icon": "cloud-download",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+  },
+  {
+    "Id": 4,
+    "Title": "Adipisicing elit",
+    "Icon": "leaf",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+  },
+  {
+    "Id": 5,
+    "Title": "Sed do eiusmod",
+    "Icon": "cogs",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+  },
+  {
+    "Id": 6,
+    "Title": "Labore et dolore",
+    "Icon": "heart",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+  }
+]
+

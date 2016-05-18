@@ -1,0 +1,24 @@
+﻿[
+  {
+    "Id" : 1,
+    "Name": "John Doe",
+    "Role": "Director of corlate.com",
+    "ImageUrl": "/images/client1.png",
+    "Comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+  },
+  {
+    "Id": 2,
+    "Name": "John Doe",
+    "Role": "Director of corlate.com",
+    "ImageUrl": "/images/client2.png",
+    "Comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+  },
+  {
+    "Id": 3,
+    "Name": "John Doe",
+    "Role": "Director of corlate.com",
+    "ImageUrl": "/images/client3.png",
+    "Comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+  }
+ ]
+

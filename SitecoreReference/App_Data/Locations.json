@@ -1,0 +1,39 @@
+﻿[
+  {
+    "Id": 1,
+    "Street": "1537 Flint Street",
+    "City": "Tumon",
+    "State": "MP",
+    "Zip": "96951",
+    "Phone": "670-898-2847",
+    "Email": "info@domain.com"
+  },
+  {
+    "Id": 2,
+    "Street": "1537 Flint Street",
+    "City": "Tumon",
+    "State": "MP",
+    "Zip": "96951",
+    "Phone": "670-898-2847",
+    "Email": "info@domain.com"
+  },
+  {
+    "Id": 3,
+    "Street": "1537 Flint Street",
+    "City": "Tumon",
+    "State": "MP",
+    "Zip": "96951",
+    "Phone": "670-898-2847",
+    "Email": "info@domain.com"
+  },
+  {
+    "Id": 4,
+    "Street": "1537 Flint Street",
+    "City": "Tumon",
+    "State": "MP",
+    "Zip": "96951",
+    "Phone": "670-898-2847",
+    "Email": "info@domain.com"
+  }
+]
+

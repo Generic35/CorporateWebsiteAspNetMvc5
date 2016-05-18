@@ -1,0 +1,8 @@
+﻿@model IEnumerable<SitecoreReference.Models.Service>
+<div class="row">
+    <div class="features">
+        @foreach(var service in Model.Take(6)) { 
+            @Html.Partial("_FeatureListItem", service)
+        }
+    </div><!--/.services-->
+</div><!--/.row-->
