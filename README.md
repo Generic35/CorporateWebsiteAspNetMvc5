@@ -1,7 +1,8 @@
-#Corporate Website Angular1.4 TypeScript
+#Corporate Website Asp.Net Mvc 5
 
 This corporate website showcases a company, it's locations, services, staff, portfolio, and blog posts.
-The technologies use Angular JS 1.4 as front end framework in TypeScript.
-And various interchangeable datasources including nodeJs/Express, Asp.net WebApi, Mock data and Json files.
 
-To see the website, run server.bat and open a browser at http://localhost:8098
+The technology used as web framework is Asp.Net MVC 5.
+And various interchangeable datasources including Entity Framework, ElasticSearch, Asp.net WebApi, Mock data and Json files.
+
+To see the website, open the solution in visual studio and press play.
